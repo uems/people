@@ -48,7 +48,23 @@ install again. This will in turn generate a Gemfile.lock file, which has
 all the versions of gems locked up, giving you a clean and predictable
 gemset to work with.
 
+running
+-------
+
+```bash
+people$ bundle exec shotgun
+== Shotgun/WEBrick on http://127.0.0.1:9393/
+[2013-09-11 02:02:54] INFO  WEBrick 1.3.1
+[2013-09-11 02:02:54] INFO  ruby 1.9.3 (2012-10-12) [x86_64-darwin11.3.0]
+[2013-09-11 02:02:54] INFO  WEBrick::HTTPServer#start: pid=46181 port=9393
+```
+
+Then point your browser (or curl) at http://localhost:9393.
+
 developing
 ----------
+
+# write specs (skeleton coming)
+# hack away
 
 
